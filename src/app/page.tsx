@@ -12,7 +12,7 @@ export default function Home() {
           </div>
           <div className="flex items-center gap-3">
             <Link 
-              href="/auth/signup" 
+              href="/main" 
               className="px-4 py-2 text-sm font-medium bg-green-500 text-white rounded-md hover:bg-green-600 transition-colors"
             >
               시작하기
@@ -35,7 +35,7 @@ export default function Home() {
             </p>
             <div className="flex justify-center mt-4">
               <Link 
-                href="/auth/signup" 
+                href="/main" 
                 className="w-30 block px-6 py-3 font-medium bg-green-500 text-white rounded-md hover:bg-green-600 transition-colors text-center"
               >
                 시작하기
@@ -46,7 +46,7 @@ export default function Home() {
        
         <section id="features" className="py-12">
           <div>
-            <h2 className="text-2xl font-bold text-center mb-8">Growith의 특별한 기능</h2>
+            <h2 className="text-2xl font-bold text-center mb-8">MonChall의 특별한 기능</h2>
             <div className="space-y-6">
               <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-white shadow-sm">
                 <div className="p-3 rounded-full bg-green-100 mb-4">
@@ -79,7 +79,7 @@ export default function Home() {
             <PiggyBank className="h-5 w-5 text-green-500" />
             <span>Growith</span>
           </div>
-          <p className="text-sm text-muted-foreground">© 2024 Growith. All rights reserved.</p>
+          <p className="text-sm text-muted-foreground">© 2024 MonChall. All rights reserved.</p>
         </div>
       </footer>
     </div>
