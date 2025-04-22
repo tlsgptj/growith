@@ -1,5 +1,6 @@
-import { PiggyBank, Users, Trophy, Menu } from "lucide-react"
-import Link from "next/link"
+import { PiggyBank, Users, Trophy, Menu } from "lucide-react";
+import Link from "next/link";
+import "@/lib/firebase/settingFCM";
 
 export default function Home() {
   return (
@@ -31,7 +32,7 @@ export default function Home() {
               함께 <span className="text-green-500">성장</span>하세요
             </h1>
             <p className="text-lg text-muted-foreground mb-8">
-              Growith와 함께 친구들과 절약 챌린지를 시작하고, 건강한 금융 습관을 만들어보세요.
+              MonChall와 함께 친구들과 절약 챌린지를 시작하고, 건강한 금융 습관을 만들어보세요.
             </p>
             <div className="flex justify-center mt-4">
               <Link 
